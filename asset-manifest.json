@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/persianfilmz/static/css/main.04b0aec0.chunk.css",
-    "main.js": "/persianfilmz/static/js/main.8b0dc876.chunk.js",
-    "main.js.map": "/persianfilmz/static/js/main.8b0dc876.chunk.js.map",
+    "main.js": "/persianfilmz/static/js/main.c6d051ca.chunk.js",
+    "main.js.map": "/persianfilmz/static/js/main.c6d051ca.chunk.js.map",
     "runtime-main.js": "/persianfilmz/static/js/runtime-main.6bc200c2.js",
     "runtime-main.js.map": "/persianfilmz/static/js/runtime-main.6bc200c2.js.map",
     "static/css/2.8dd82ec6.chunk.css": "/persianfilmz/static/css/2.8dd82ec6.chunk.css",
@@ -14,20 +14,20 @@
     "static/js/2.71746d79.chunk.js.LICENSE.txt": "/persianfilmz/static/js/2.71746d79.chunk.js.LICENSE.txt",
     "static/media/512x512bb.be304f5d.jpg": "/persianfilmz/static/media/512x512bb.be304f5d.jpg",
     "static/media/styles.css": "/persianfilmz/static/media/Roboto-Thin.527d9d94.woff",
-    "static/media/aladdin-2019-movie-d4.c4f83a4d.jpg": "/persianfilmz/static/media/aladdin-2019-movie-d4.c4f83a4d.jpg",
+    "static/media/aladdin-2019-movie-d4.f82ff88e.jpg": "/persianfilmz/static/media/aladdin-2019-movie-d4.f82ff88e.jpg",
     "static/media/aladdin-movie-poster-md.4a6e6b02.jpg": "/persianfilmz/static/media/aladdin-movie-poster-md.4a6e6b02.jpg",
-    "static/media/cat_4k-romantic-wallpapers_630306.5bb7a5f5.png": "/persianfilmz/static/media/cat_4k-romantic-wallpapers_630306.5bb7a5f5.png",
+    "static/media/cat_4k-romantic-wallpapers_630306.2bc43116.jpg": "/persianfilmz/static/media/cat_4k-romantic-wallpapers_630306.2bc43116.jpg",
     "static/media/la-la-land-movie-poster-md.8efb8041.jpg": "/persianfilmz/static/media/la-la-land-movie-poster-md.8efb8041.jpg",
-    "static/media/the-lion-king-movie-8k-de.3638d147.jpg": "/persianfilmz/static/media/the-lion-king-movie-8k-de.3638d147.jpg",
+    "static/media/the-lion-king-movie-8k-de.804cbee6.jpg": "/persianfilmz/static/media/the-lion-king-movie-8k-de.804cbee6.jpg",
     "static/media/the-lion-king-movie-poster-md.a5eeaef7.jpg": "/persianfilmz/static/media/the-lion-king-movie-poster-md.a5eeaef7.jpg",
     "static/media/wonderwoman.dbb9f752.jpg": "/persianfilmz/static/media/wonderwoman.dbb9f752.jpg",
-    "static/media/wp3477736.617889f2.jpg": "/persianfilmz/static/media/wp3477736.617889f2.jpg"
+    "static/media/wp3477736.a69efdc5.jpg": "/persianfilmz/static/media/wp3477736.a69efdc5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6bc200c2.js",
     "static/css/2.8dd82ec6.chunk.css",
     "static/js/2.71746d79.chunk.js",
     "static/css/main.04b0aec0.chunk.css",
-    "static/js/main.8b0dc876.chunk.js"
+    "static/js/main.c6d051ca.chunk.js"
   ]
 }
