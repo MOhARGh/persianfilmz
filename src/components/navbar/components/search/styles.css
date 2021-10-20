@@ -1,0 +1,14 @@
+reach-portal {
+    position: absolute;
+    z-index: 99;
+}
+.Sidebar {
+    background-color: #65f9c1;
+    position: fixed;
+    right: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }

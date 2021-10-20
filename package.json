@@ -1,0 +1,56 @@
+{
+  "homepage": "https://MOhARGh.github.io/persianfilmz",
+  "name": "persianfilmz",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@headlessui/react": "^1.4.1",
+    "@reach/dialog": "^0.16.0",
+    "flickity-as-nav-for": "^2.0.1",
+    "flickity-fade": "^1.0.0",
+    "moment-timezone": "^0.5.33",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-flickity-component": "^3.6.2",
+    "react-live-clock": "^5.2.0",
+    "react-moment": "^1.1.1",
+    "react-scripts": "^4.0.3",
+    "react-spring": "^9.2.4",
+    "sass": "^1.42.1",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "npm run watch:css && react-scripts start",
+    "build": "npm run watch:css && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "watch:css": "postcss src/public/styles/tailwind.css -o src/public/styles/output.css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "gh-pages": "^3.2.3",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.15"
+  }
+}

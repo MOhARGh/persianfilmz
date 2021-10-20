@@ -1,0 +1,276 @@
+html {
+  padding-right: 0 !important;
+}
+/* Font Pelak */
+@font-face {
+  font-family: Pelak;
+  src: url("../fonts/Pelak/WebFonts/PelakFA-Regular.eot");
+  src: url("../fonts/Pelak/WebFonts/PelakFA-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Pelak/WebFonts/PelakFA-Regular.woff2") format("woff2"),
+    url("../fonts/Pelak/WebFonts/PelakFA-Regular.woff") format("woff"),
+    url("../fonts/Pelak/WebFonts/PelakFA-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Pelak;
+  src: url("../fonts/Pelak/WebFonts/PelakFA-Thin.eot");
+  src: url("../fonts/Pelak/WebFonts/PelakFA-Thin.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Pelak/WebFonts/PelakFA-Thin.woff2") format("woff2"),
+    url("../fonts/Pelak/WebFonts/PelakFA-Thin.woff") format("woff"),
+    url("../fonts/Pelak/WebFonts/PelakFA-Thin.ttf") format("truetype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: Pelak;
+  src: url("../fonts/Pelak/WebFonts/PelakFA-light.eot");
+  src: url("../fonts/Pelak/WebFonts/PelakFA-light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Pelak/WebFonts/PelakFA-light.woff2") format("woff2"),
+    url("../fonts/Pelak/WebFonts/PelakFA-light.woff") format("woff"),
+    url("../fonts/Pelak/WebFonts/PelakFA-light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Pelak;
+  src: url("../fonts/Pelak/WebFonts/PelakFA-Medium.eot");
+  src: url("../fonts/Pelak/WebFonts/PelakFA-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Pelak/WebFonts/PelakFA-Medium.woff2") format("woff2"),
+    url("../fonts/Pelak/WebFonts/PelakFA-Medium.woff") format("woff"),
+    url("../fonts/Pelak/WebFonts/PelakFA-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Pelak;
+  src: url("../fonts/Pelak/WebFonts/PelakFA-SemiBold.eot");
+  src: url("../fonts/Pelak/WebFonts/PelakFA-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Pelak/WebFonts/PelakFA-SemiBold.woff2") format("woff2"),
+    url("../fonts/Pelak/WebFonts/PelakFA-SemiBold.woff") format("woff"),
+    url("../fonts/Pelak/WebFonts/PelakFA-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Pelak;
+  src: url("../fonts/Pelak/WebFonts/PelakFA-Bold.eot");
+  src: url("../fonts/Pelak/WebFonts/PelakFA-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Pelak/WebFonts/PelakFA-Bold.woff2") format("woff2"),
+    url("../fonts/Pelak/WebFonts/PelakFA-Bold.woff") format("woff"),
+    url("../fonts/Pelak/WebFonts/PelakFA-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Pelak;
+  src: url("../fonts/Pelak/WebFonts/PelakFA-ExtraBold.eot");
+  src: url("../fonts/Pelak/WebFonts/PelakFA-ExtraBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Pelak/WebFonts/PelakFA-ExtraBold.woff2") format("woff2"),
+    url("../fonts/Pelak/WebFonts/PelakFA-ExtraBold.woff") format("woff"),
+    url("../fonts/Pelak/WebFonts/PelakFA-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: Pelak;
+  src: url("../fonts/Pelak/WebFonts/PelakFA-Black.eot");
+  src: url("../fonts/Pelak/WebFonts/PelakFA-Black.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Pelak/WebFonts/PelakFA-Black.woff2") format("woff2"),
+    url("../fonts/Pelak/WebFonts/PelakFA-Black.woff") format("woff"),
+    url("../fonts/Pelak/WebFonts/PelakFA-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+
+/* Font FiraSans */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Regular'), url('../fonts/Roboto/Roboto-Regular.woff') format('woff');
+  }
+
+  @font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), url('../fonts/Roboto/Roboto-Bold.woff') format('woff');
+  }
+
+  @font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Roboto Thin'), url('../fonts/Roboto/Roboto-Thin.woff') format('woff');
+  }
+
+  @font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Roboto Light'), url('../fonts/Roboto/Roboto-Light.woff') format('woff');
+  }
+  
+  @font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), url('../fonts/Roboto/Roboto-Medium.woff') format('woff');
+  }
+  
+  @font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Roboto Black'), url('../fonts/Roboto/Roboto-Black.woff') format('woff');
+  }
+  
+
+/* Main Styles */
+body {
+  font-family: Pelak;
+}
+
+/* NavBar */
+.hamburger-menu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 32px;
+  height: 100%;
+  direction: rtl;
+}
+.hamburger-menu .line:first-child {
+  width: 24px;
+  height: 4px;
+  border-radius: 32px;
+}
+.hamburger-menu .line:last-child {
+  width: 16px;
+  height: 4px;
+  border-radius: 32px;
+}
+.rtl {
+  direction: rtl;
+}
+.main-menu {
+  background-color: rgba(18, 18, 18, 0);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(18, 18, 18, 1),
+    rgba(18, 18, 18, 0)
+  );
+}
+.main-slider {
+  height: 96vh;
+}
+.main-slider .slick-slider,
+.main-slider .slick-slider .slick-list {
+  height: 100%;
+}
+.main-slider .slick-track {
+  height: 100%;
+}
+.slick-next {
+  right: 0;
+}
+.slick-prev {
+  left: 0;
+  z-index: 9;
+}
+.slider-item-background {
+  background-size: cover;
+}
+.slick-dots {
+  bottom: 75px;
+}
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 12px;
+  height: 12px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: 0;
+  background: 0 0;
+  background: #fff;
+  border-radius: 100%;
+}
+.slick-dots li.slick-active button {
+  box-shadow: 0 0 20px 5px rgba(255, 255, 255, 1);
+}
+
+.ltr {
+  direction: ltr;
+}
+
+/* Font Family */
+.Roboto {
+  font-family: Roboto;
+}
+
+/* Body */
+.main-background {
+  background-color: #121212;
+}
+
+/* Card */
+.film-card {
+  width: 153px;
+  height: 300px;
+}
+.line-header::after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+}
+
+.content-slider .flickity-button {
+  bottom: 0;
+  opacity: 0;
+  z-index: 1;
+  position: absolute;
+  transition: opacity 500ms;
+  height: 100%;
+  border-radius: 0;
+}
+.content-slider .flickity-button.next {
+  background: linear-gradient(to right, rgba(18,18,18,1), rgba(18,18,18,0));
+  left: 0;
+}
+.content-slider .flickity-button.previous {
+  background: linear-gradient(to left, rgba(18,18,18,1), rgba(18,18,18,0));
+  right: 0;
+}
+.content-slider .flickity-button.previous:disabled {
+  opacity: 0;
+}
+.content-slider:hover .flickity-button {
+  opacity: 1;
+}
+.content-slider .carousel-cell:first-child {
+  margin-right: 0;
+}
+.film-card-score {
+  width: 16px;
+  height: 16px;
+}
+.heart-icon svg {
+  color: red;
+  fill: red;
+}
