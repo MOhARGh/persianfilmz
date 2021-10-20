@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/persianfilmz/static/css/main.bb68bb30.chunk.css",
-    "main.js": "/persianfilmz/static/js/main.493ff09c.chunk.js",
-    "main.js.map": "/persianfilmz/static/js/main.493ff09c.chunk.js.map",
+    "main.js": "/persianfilmz/static/js/main.1f02c5d7.chunk.js",
+    "main.js.map": "/persianfilmz/static/js/main.1f02c5d7.chunk.js.map",
     "runtime-main.js": "/persianfilmz/static/js/runtime-main.494a3b9f.js",
     "runtime-main.js.map": "/persianfilmz/static/js/runtime-main.494a3b9f.js.map",
     "static/css/2.8dd82ec6.chunk.css": "/persianfilmz/static/css/2.8dd82ec6.chunk.css",
@@ -32,6 +32,6 @@
     "static/css/2.8dd82ec6.chunk.css",
     "static/js/2.e512bb26.chunk.js",
     "static/css/main.bb68bb30.chunk.css",
-    "static/js/main.493ff09c.chunk.js"
+    "static/js/main.1f02c5d7.chunk.js"
   ]
 }
