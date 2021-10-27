@@ -16,8 +16,17 @@ import AladdinThumb from "../img/thumbnails/aladdin-movie-poster-md.jpg";
 const movies = [
   {
     id: 1,
+    slug: "tt0451279",
     name: "Wonder Woman",
     persianName: "زن شگفت انگیز",
+    language: [
+      {id: 1, name: "انگلیسی"},
+      {id: 2, name: "فارسی"},
+    ],
+    country: [
+      {id: 1, name: "آمریکا"},
+      {id: 2, name: "فرانسه"},
+    ],
     year: "2017",
     duration: "141 دقیقه",
     esrb: "PG13",
@@ -40,8 +49,17 @@ const movies = [
   },
   {
     id: 2,
+    slug: "tt3783958",
     name: "La La Land",
     persianName: "لا لا لند",
+    language: [
+      {id: 1, name: "انگلیسی"},
+      {id: 2, name: "فارسی"},
+    ],
+    country: [
+      {id: 1, name: "آمریکا"},
+      {id: 2, name: "فرانسه"},
+    ],
     year: "2016",
     duration: "128 دقیقه",
     esrb: "PG13",
@@ -64,8 +82,17 @@ const movies = [
   },
   {
     id: 3,
-    name: "Lion King",
+    slug: "tt6105098",
+    name: "The Lion King",
     persianName: "شیر شاه",
+    language: [
+      {id: 1, name: "انگلیسی"},
+      {id: 2, name: "فارسی"},
+    ],
+    country: [
+      {id: 1, name: "آمریکا"},
+      {id: 2, name: "فرانسه"},
+    ],
     year: "2019",
     duration: "118 دقیقه",
     esrb: "PG",
@@ -87,8 +114,17 @@ const movies = [
   },
   {
     id: 4,
+    slug: "tt6139732",
     name: "Aladdin",
     persianName: "علائدین",
+    language: [
+      {id: 1, name: "انگلیسی"},
+      {id: 2, name: "فارسی"},
+    ],
+    country: [
+      {id: 1, name: "آمریکا"},
+      {id: 2, name: "فرانسه"},
+    ],
     year: "2019",
     duration: "128 دقیقه",
     esrb: "PG",

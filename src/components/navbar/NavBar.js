@@ -5,9 +5,9 @@ import Sidebar from "./components/sidebar/Sidebar";
 import "@reach/dialog/styles.css";
 import MainMenu from "./components/mainMenu/MainMenu";
 import Logo from "./components/logo/Logo";
-import { Fragment } from "react";
 import UserProfile from "./components/userProfile/UserProfile";
 import Search from "./components/search/Search";
+import LoginRegister from "../loginRegister/LoginRegister";
 
 const NavBar = () => {
   const [opened, setOpened] = React.useState(false);
@@ -19,8 +19,17 @@ const NavBar = () => {
   const searchSwip = React.useCallback(() => setOpenSearch(true), []);
   const closeSearch = React.useCallback(() => setOpenSearch(false), []);
 
+  const UserLoggedIn = () => {
+    const ls = localStorage.getItem("user");
+    if (ls !== "") {
+      return <UserProfile />;
+    } else {
+      return <LoginRegister />;
+    }
+  };
+
   return (
-    <Disclosure as="nav" className="bg-transparent absolute w-full z-10">
+    <Disclosure as="nav" className="bg-transparent absolute w-full z-30">
       {({ open }) => (
         <>
           <div className="main-menu flex items-center">
@@ -90,7 +99,7 @@ const NavBar = () => {
                     <Search searchSwip={openSearch} onDismiss={closeSearch}>
                       This is in the Search
                     </Search>
-                    <UserProfile />
+                    {UserLoggedIn()}
                   </div>
                   {/* Profile dropdown */}
                 </div>

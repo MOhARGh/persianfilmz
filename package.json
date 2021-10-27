@@ -1,11 +1,12 @@
 {
-  "homepage": "https://MOhARGh.github.io/persianfilmz",
+  "homepage": "https://MOhARGh.github.io/",
   "name": "persianfilmz",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.4.1",
     "@reach/dialog": "^0.16.0",
+    "axios": "^0.24.0",
     "flickity-as-nav-for": "^2.0.1",
     "flickity-fade": "^1.0.0",
     "moment-timezone": "^0.5.33",
@@ -14,8 +15,10 @@
     "react-flickity-component": "^3.6.2",
     "react-live-clock": "^5.2.0",
     "react-moment": "^1.1.1",
+    "react-router-dom": "^5.3.0",
     "react-scripts": "^4.0.3",
     "react-spring": "^9.2.4",
+    "react-toastify": "^8.0.3",
     "sass": "^1.42.1",
     "web-vitals": "^1.0.1"
   },

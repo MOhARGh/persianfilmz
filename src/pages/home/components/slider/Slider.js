@@ -1,9 +1,8 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import Flickity from "react-flickity-component";
 import "flickity/dist/flickity.min.css";
 import "flickity-as-nav-for";
 import "flickity-fade";
-import "./styles.css";
 
 const Slider = ({ data }) => {
   const flickityOptions = {
@@ -83,7 +82,9 @@ const Slider = ({ data }) => {
                 {/* Left Part Slider */}
                 <div className="w-full flex-col justify-end	flex">
                   <div className="mb-5 lg:text-left text-center">
-                    <h1 className="title-name">{movie.name}</h1>
+                    <Link to={`/title/${movie.slug}`}>
+                      <h1 className="title-name">{movie.name}</h1>
+                    </Link>
                   </div>
                   <div className="mb-5">
                     <div className="flex flex-wrap lg:flex-nowrap lg:text-left text-center justify-center lg:justify-end">

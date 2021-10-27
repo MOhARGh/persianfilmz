@@ -1,5 +1,7 @@
 import { Menu, Transition } from "@headlessui/react";
 import { Fragment } from "react";
+import { toast } from "react-toastify";
+import { logoutApi } from "../../../../api/auth";
 import Avatar from "../../../../public/img/avatar/512x512bb.jpg";
 
 const UserProfile = () => {
@@ -18,6 +20,22 @@ const UserProfile = () => {
   function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
   }
+
+  const handleLogout = () => {
+    logoutApi(() => {
+      
+      return toast.success("خارج شدید", {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
+    });
+  };
+
   return (
     <Menu as="div" className="">
       <div className="relative">
@@ -25,6 +43,7 @@ const UserProfile = () => {
           <span className="sr-only">Open user menu</span>
           <img className="h-10 w-10 rounded-full" src={user.imageUrl} alt="" />
         </Menu.Button>
+        
         <Transition
           as={Fragment}
           enter="transition ease-out duration-100"
@@ -50,6 +69,14 @@ const UserProfile = () => {
                 )}
               </Menu.Item>
             ))}
+            <Menu.Item>
+              <div
+                onClick={handleLogout}
+                className="block cursor-pointer px-4 py-2 text-sm text-gray-700"
+              >
+                خروج
+              </div>
+            </Menu.Item>
           </Menu.Items>
         </Transition>
       </div>
